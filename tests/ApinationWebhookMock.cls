@@ -1,3 +1,7 @@
+/*
+  Mock HTTP request used by API Nation tests.
+*/
+
 global class ApinationWebhookMock implements HTTPCalloutMock {
   global HTTPResponse respond(HTTPRequest req){
         HttpResponse res = new HTTPResponse();
