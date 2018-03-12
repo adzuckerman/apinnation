@@ -1,4 +1,4 @@
-# API Nation + SalesForce Development
+# Apination + SalesForce Development
 
 This repo contains the necessary Apex classes, triggers, and tests to send data to API Nation.
 
