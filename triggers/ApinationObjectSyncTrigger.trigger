@@ -1,4 +1,6 @@
 /*
+  When object trigger is fired, send object ids to the specified object sync class.
+
   This generic trigger can be used for any SalesForce object. 'Object' is used
   throughout this trigger, please change 'Object' to the specific SalesForce object.
   I.E. ApinationObjectSyncTrigger --> ApinationOpportunitySyncTrigger

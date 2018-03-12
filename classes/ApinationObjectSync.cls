@@ -1,4 +1,7 @@
 /*
+  Receives a list of Object Id's from a trigger, then selects fields from that
+  object via a SOQL query, and sends that information as JSON to Apination
+
   This generic class can be used for any SalesForce object. 'Object' is used
   throughout this class, please change 'Object' to the specific SalesForce object.
   I.E. ApinationObjectSync --> ApinationOpportunitySync
