@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Apination_API_URL</fullName>
+        <value>https://my.apination.com/api/connectors/apps/cn_sf/save_object/</label>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apination API URL</shortDescription>
+    </labels>
+    <labels>
+        <fullName>Apination_API_URL_Staging</fullName>
+        <value>https://webapp-stg.apination.com/api/connectors/apps/cn_sf/save_object/</label>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apination API URL for Test Server</shortDescription>
+    </labels>
+    <labels>
+        <fullName>Apination_Username</fullName>
+        <value>*REPLACE WITH REAL USERNAME*</label>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apination Username</shortDescription>
+    </labels>
+    <labels>
+        <fullName>Apination_API_Token</fullName>
+        <value>*REPLACE WITH REAL API TOKEN*</label>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Apination API Token</shortDescription>
+    </labels>
+</CustomLabels>

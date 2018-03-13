@@ -1,10 +1,20 @@
+/*
+  Test for ApinationWebhook.cls
+*/
+
 @isTest(seeAlldata=true)
 private class ApinationWebhookTestCase {
     static @isTest void testJsonContent() {
-        List<sObject> orders = [select Id from Order limit 2];
-        string userName = 'apps@apination.com';
-        string objectName = 'order';
-        string content = ApinationWebhook.jsonContent(orders, objectName, userName);
+        // Replace object with a SalesForce object.
+        List<sObject> object = [select Id from Object limit 2];
+
+        // Replace username with SalesForce username linked to API Nation.
+        string username = '';
+
+        // Replace objectName with a valid test object i.e. 'opportunity'.
+        string objectName = '';
+
+        string content = ApinationWebhook.jsonContent(object, objectName, username);
         System.assert(content != null);
     }
 }
